@@ -119,7 +119,7 @@ def hint2(random_word, guessed_letters):
     """
 
     chance = 0.7
-    print("Yo, let me think")
+    print("-Friend: Yo, let me think")
     time.sleep(3)
 
     if random.random() <= chance:       #сравнение рандомного шанса с выбранным
