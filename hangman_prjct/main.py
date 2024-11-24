@@ -112,6 +112,7 @@ def hint1(random_word, guessed_letters):
     for letter in random_word:
         if letter not in guessed_letters:
             print(f"Hint: Try the letter '{letter}'.")
+            return
 
 def hint2(random_word, guessed_letters):
     """
@@ -129,10 +130,13 @@ def hint2(random_word, guessed_letters):
         if not_in_word:
             incorrect_letter = random.choice(not_in_word)
             print(f"-Friend: Man, im not really sure, but i think you should try letter'{incorrect_letter}'.")
+            return
     else:
         for letter in random_word:
             if letter not in guessed_letters:
+                guessed_letters.add(letter)     #добавляем в угаданные
                 print(f"-Friend: Man, im not really sure, but i think you should try letter '{letter}'.")
+                return
 
 def hint_use(random_word, guessed_letters):
     """
