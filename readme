@@ -3,7 +3,9 @@
 Описание: Виселица с подсказками
 Подсказки(При запросе): Звонок другу - верный ответ с некоторым шансом, будет давать одну неповторяющуюся букву,которая еще не угадана
 При возникновении некоторых проблем, подглядывал в код, который был указан в качестве примера в банке тем. В частности с помощью него понял
-как зашифровать слово
+как зашифровать слово. 
+Тут подчерпнул про шанс для второй подсказки
+https://stackoverflow.com/questions/47916023/how-to-set-a-percentage-chance-to-make-something
 Пример:
 Welcome to 'Hangman'
 Rules: a New Year's theme word has been guessed, and you need to guess it letter by letter. You have 10 attempts and 2 hints.
