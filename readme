@@ -1,0 +1,48 @@
+Автор: Титов Павел Александрович
+Ису: 474374
+Описание: Виселица с подсказками
+Подсказки(При запросе): Звонок другу - верный ответ с некоторым шансом, будет давать одну неповторяющуюся букву,которая еще не угадана
+Пример:
+Welcome to 'Hangman'
+Rules: a New Year's theme word has been guessed, and you need to guess it letter by letter. You have 10 attempts and 2 hints.
+Want to use hint? Write: hint
+------
+Enter letter: a
+
+
+
+
+
+
+
+=================
+Wrong
+------
+Enter letter: e
+
+
+
+
+
+
+
+=================
+Correct
+--e---
+Enter letter: hint
+1) Get one letter 2) Ring your friend
+Choose 1 or 2: 2
+-Friend: Yo, man, im not really sure, but i think you should try letter'c'.
+--e---
+Enter letter: c
+
+             |
+             |
+             |
+             |
+             |
+            =================
+Wrong
+--e---
+Enter letter: 
+...
